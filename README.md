@@ -27,6 +27,12 @@ As a user, I want to checkout upcoming shows with description, showtimes, availa
 
 
   ![](./assets/Capture3.PNG)
+  
+  
+  ![](./assets/Capture4.PNG)
+  
+  
+  ![](./assets/Capture5.PNG)
 
 # Contributors:
 
