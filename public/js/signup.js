@@ -6,6 +6,13 @@ const signupFormHandler = async(event) => {
     const password = document.getElementById('password-signup').value.trim();
     const confirmPassword = document.getElementById('confirmPassword-signup').value.trim();
     
+    if(password.length < 8) {
+        alert("Please enter a password with at least 8 characters.")
+        password.value("")
+        confirmPassword.value("")
+    }
+
+
     if(password !== confirmPassword) {
         alert("Your passwords did not match.")
         password.value("")
